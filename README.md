@@ -17,12 +17,7 @@ This is a necessary step because we need to access the official API to get all t
 
 3. Now, run `npm run token` to get a token valid for 60 minutes (you can get another running again this command);
 
-4. Finally, you can run `npm run scrape`, insert the artist **name** and **id** (the base-62 identifier that you can find at the end of the Spotify URL), and you will find the scraped information organized in a json file located in ./data.
-
-Each track has all the informations provided by the official API, plus the credits scraped by this application.
-
-During this process, you will be asked to set a **concurrency value**, which is an integer, and limits the number of parallel operations that the application performs.
-This value will heavily influence the performance, generally speaking i recommend to not set it above 8.
+4. Finally, you can run `npm run scrape`, insert the artist **name** and **id** (the base-62 identifier that you can find at the end of the Spotify URL), and you will find the scraped information organized in a json file located in ./data.<br/>Each track has all the informations provided by the official API, plus the credits scraped by this application.<br/>During this process, you will be asked to set a **concurrency value**, which is an integer, and limits the number of parallel operations that the application performs.<br/>This value will heavily influence the performance, generally speaking i recommend to not set it above 8.
 
 
 
