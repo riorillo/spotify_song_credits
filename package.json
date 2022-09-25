@@ -1,0 +1,22 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "config": "node set_config.js",
+    "token": "node set_token.js",
+    "scrape": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "node-fetch": "^2.0.0",
+    "prompt-sync": "^4.2.0",
+    "puppeteer": "^18.0.5",
+    "request": "^2.88.2"
+  }
+}
