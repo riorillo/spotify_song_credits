@@ -25,7 +25,7 @@ const authOptions = {url: 'https://accounts.spotify.com/api/token',
         CLIENT_ID: CLIENT_ID,
         CLIENT_SECRET: CLIENT_SECRET
       }
-      console.log('runs')
+      console.log('Success')
       fs.writeFileSync(`./config.json`, JSON.stringify(object), "utf-8");
     };
   });

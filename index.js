@@ -55,7 +55,7 @@ const getTracks = async (artist, id) => {
             await getTracks(artist, id)
         }
     }
-    catch (e) { console.log(e) }
+    catch (e) { console.log('Invalid or expired token') }
 };
 
 //accetta come parametri il nome dell'artista e l'id corrispondente ed esegue lo scraping sulla web app di spotify --> 

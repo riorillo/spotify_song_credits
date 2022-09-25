@@ -9,3 +9,5 @@ fs.writeFileSync(`./config.json`, JSON.stringify({
     CLIENT_ID: CLIENT_ID,
     CLIENT_SECRET: CLIENT_SECRET
 }), "utf-8");
+
+console.log('Success')
